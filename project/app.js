@@ -19,3 +19,11 @@ document.addEventListener("DOMContentLoaded",function(){
         console.log(formDataJSON)
     });
 });
+
+const resetData = ()=>{
+    document.getElementById("data-form").reset()
+}
+const backToIndexPage = ()=>{
+    window.location.href = "main.html"
+}
+
