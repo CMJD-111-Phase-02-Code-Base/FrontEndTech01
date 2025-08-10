@@ -13,6 +13,7 @@
     text-decoration: underline;
 }
 /* Element selector */
+/* Type selector */
 p{
     font-style: italic;
 }
