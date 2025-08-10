@@ -1,4 +1,22 @@
+/* Universal selector */
+/* *{
+    text-decoration: underline;
+    color: orange 
+} */
+
+/* ID selector */
+#main-topic{
+    color: orange;
+}
+/* Class selector */
+.topic-style{
+    text-decoration: underline;
+}
+/* Element selector */
 p{
-    color: green; 
-    font-weight: bold;
-  }
+    font-style: italic;
+}
+/* Attribute selector */
+input[type="text"]{
+    border: 2px solid red;
+}
