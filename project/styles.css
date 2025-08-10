@@ -1,51 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-#main-outer{
+#main-outer {
+  display: flex;
+  flex-direction: column;
+}
+#left-pane {
+  width: 50%;
+  height: 100vh;
+  padding: 20px;
+}
+#right-pane {
+  width: 50%;
+  height: 100vh;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+}
+.topic-format {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+p {
+  text-align: justify;
+  padding: 5px;
+}
+table {
+  width: 60%;
+  text-align: center;
+}
+#btn-pan > button {
+  width: 250px;
+  height: 80px;
+  border-radius: 20px;
+  border: 2px solid rgb(128, 0, 0);
+  color: rgb(128, 0, 0);
+  background: none;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+#btn-pan > button:hover {
+  font-size: 1.5rem;
+  color: white;
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgb(155, 68, 42) 0%,
+    rgba(227, 16, 16, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    align-items: center;
     display: flex;
-    flex-direction: column;
-}
-#left-pane{
-    width: 50%;
-    height: 100vh;
-    padding: 20px;
-}
-#right-pane{
-    width: 50%;
-    height: 100vh;
-    padding: 20px;
-    position: absolute;
-    left: 50%;
-}
-.topic-format{
-    font-weight: bold;
-    padding-bottom: 5px;
-}
-p{
-    text-align: justify;
-    padding: 5px;
-}
-table{
-    width: 60%;
-    text-align: center;
-}
-#btn-pan > button{
-    width: 250px;
-    height: 80px;
-    border-radius: 20px;
-    border: 2px solid rgb(128, 0, 0);
-    color: rgb(128, 0, 0);
-    background: none;
-    font-size: 1.2rem;
-    margin-top: 20px;
-}
-#btn-pan > button:hover{
-    font-size: 1.5rem;
-    color: white;
-    background: #2A7B9B;
-background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(227, 16, 16, 1) 100%, rgba(237, 221, 83, 1) 100%);
+    justify-content: space-around;
+    background-color: rgb(170, 175, 180);
 }
