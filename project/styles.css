@@ -33,3 +33,19 @@ table{
     width: 60%;
     text-align: center;
 }
+#btn-pan > button{
+    width: 250px;
+    height: 80px;
+    border-radius: 20px;
+    border: 2px solid rgb(128, 0, 0);
+    color: rgb(128, 0, 0);
+    background: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+#btn-pan > button:hover{
+    font-size: 1.5rem;
+    color: white;
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(227, 16, 16, 1) 100%, rgba(237, 221, 83, 1) 100%);
+}
