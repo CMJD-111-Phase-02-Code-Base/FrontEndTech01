@@ -23,6 +23,25 @@
       gap: 15px;
       left: 0;
       right: 0;
-
-      
+  }
+  label{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+  }
+  input{
+      width: 80%;
+      height: 40px;
+      border-radius: 10px;
+      padding: 10px;
+  }
+  input:nth-of-type(4){
+      width: 50%;
+  }
+  input:nth-of-type(8){
+    width: 60%;
+}
+  select{
+      width: 80px;
+      height: 40px;
   }
