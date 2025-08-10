@@ -1,0 +1,15 @@
+#flex-outer{
+    width: 60%;
+    height: 350px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-inners{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(72, 5, 5);
+    background-color: rgb(150, 255, 80);
+}
